@@ -8,7 +8,6 @@
 					$arr[$j][$i]=1;
 					$prev[]=$arr[$j][$i];
 				}
-
 			else
 				{
 					$arr[$j][$i]=$prev[count($prev)-1]+$prev[count($prev)-2];
@@ -16,8 +15,7 @@
 				}
 
 		}
-	
-		# code...
+
 	}
 	
 	$s=0;
